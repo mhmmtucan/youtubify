@@ -6,10 +6,16 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "async": "^2.6.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
+    "express-async-router": "^0.1.13",
+    "horizon-youtube-mp3": "^1.9.1",
     "mongoose": "^5.2.15",
-    "morgan": "~1.9.0"
+    "morgan": "~1.9.0",
+    "request": "^2.88.0",
+    "spotify-web-api-node": "^4.0.0",
+    "sync-each": "^1.0.1"
   }
 }
